@@ -569,9 +569,7 @@ body {
   transition: transform var(--transition-dur-and-func);
 
   background-color: var(--primary-brand-color);
-  padding-top: 40px;
-  padding-right: 32px;
-  padding-left: 32px;
+  padding: 40px 32px;
 }
 
 .apps-link:hover .overlay,

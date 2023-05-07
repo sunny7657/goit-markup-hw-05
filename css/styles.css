@@ -108,12 +108,15 @@ body {
 .modal-btn-light {
   background-color: var(--secondary-white-color);
   color: var(--primary-brand-color);
-  border: 1px solid var(--accent-light-color);
+  border-color: 1px solid var(--accent-light-color);
   box-shadow: none;
   min-width: 69px;
   padding: 12px 24px;
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn-light:hover,
 .modal-btn-light:focus {
